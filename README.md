@@ -144,9 +144,7 @@ int	jsonExtract(const String &json, const String &nameArg, int d) {
 
 	return Extract(json, nameArg).toInt();
 
-	//String r = Extract(json, nameArg, String(d));
-	//if (r == "") { return d; } else { return r.toInt();	}
-	//return r.toInt();
+
 }
 
 //---------------------------------------------------------
@@ -161,7 +159,5 @@ String jsonExtract(const String &json, const String &nameArg, String d) {
 
 	return Extract(json, nameArg);
 	
-	//String r = Extract(json, nameArg, d);
-	//if (r == "") { return d; } else { return r; }
-	//return r;
+
 }
