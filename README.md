@@ -1,7 +1,3 @@
-/*
-
-https://github.com/wyolum/jsonlib
-
 
 //---------------------------------------------------------
 // remove all white space from the json string... preserving strings
@@ -164,4 +160,3 @@ String jsonExtract(const String &json, const String &nameArg, String d) {
 	//if (r == "") { return d; } else { return r; }
 	//return r;
 }
-
