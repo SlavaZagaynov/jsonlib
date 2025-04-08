@@ -1,3 +1,4 @@
+```c++
 
 //---------------------------------------------------------
 // remove all white space from the json string... preserving strings
